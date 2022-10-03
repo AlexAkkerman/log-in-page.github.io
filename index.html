@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
+   <script src="./js/google_btn.js"></script>
+   <script src="https://apis.google.com/js/api:client.js"></script>
+   <link rel="stylesheet" href="./styles/style.css">
+   <title>Log in page</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="main"><img src="./img/logo.svg" alt="" srcset="">
+         <div class="form">
+            <h1>Welcome back</h1>
+            <h3>Please enter your contact details to connect.</h3>
+            <label for="email">Email address</label>
+            <form action=""><input type="email" name="" id="" placeholder="name@compagny.com"></form>
+            <label for="password">Password</label>
+            <form action=""><input type="password" name="" id="" placeholder="* * * * * * * * * *"></form>
+            <div class="password_info">
+               <input type="checkbox" name="" id="pass"> <label for="">Forgot password</label>
+            </div>
+            <form action=""><input class="btn_login" type="button" value="Log in"></form>
+            <div id="my-signin2"></div>
+            <div class="signup">
+               <h2>Dont have an account?</h2><label for="">Sign up here</label>
+            </div>
+
+
+         </div>
+      </div>
+      <div class="image"><img src="./img/banner.png" alt=""></div>
+
+   </div>
+   <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+</body>
+
+</html>

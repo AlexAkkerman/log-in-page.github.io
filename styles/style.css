@@ -1,0 +1,198 @@
+@font-face {
+   font-family: "Gordita";
+   src: url("../Gordita-Bold.woff") format("woff");
+}
+
+* {
+   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+   margin: 0 0;
+}
+
+body {
+   width: 1440px;
+   height: 923px;
+}
+
+.wrapper {
+   display: flex;
+   position: relative;
+   flex-direction: row;
+}
+
+.main {
+   display: flex;
+   flex-direction: column;
+   flex: 55;
+   justify-self: center;
+   align-self: center;
+
+}
+
+.main img {
+   position: absolute;
+   top: 32px;
+   left: 32px;
+   width: 141px;
+   height: 36px;
+}
+
+.image {
+   flex: 45;
+   width: 710px;
+   height: 923px;
+   margin-right: -35px;
+}
+
+.image img {
+   object-fit: fill;
+}
+
+.form {
+   display: grid;
+   grid-template-columns: max-content;
+   grid-template-rows: max-content;
+   align-content: center;
+   width: 380px;
+   height: 537px;
+   margin: 170px 162px 183px 162px;
+   background-color: rgb(255, 255, 255);
+}
+
+
+.form h1 {
+   font-family: 'Gordita';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 48px;
+   line-height: 120%;
+   color: #2B2B2B;
+   justify-self: center;
+   margin-bottom: 10px;
+}
+
+.form h3 {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 150%;
+   color: rgba(43, 43, 43, 0.5);
+   justify-self: center;
+   margin-bottom: 32px;
+}
+
+.form label {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 150%;
+   color: #2B2B2B;
+   cursor: pointer;
+   margin-bottom: 8px;
+}
+
+input {
+   width: 100%;
+   margin-bottom: 24px;
+   height: 48px;
+   background: #FFFFFF;
+   border: 1px solid #D7D7D7;
+   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+   border-radius: 8px;
+
+}
+
+input::placeholder {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: rgba(43, 43, 43, 0.5);
+   padding: auto 0;
+   padding-left: 12px;
+}
+
+input:focus-visible {
+   outline: none;
+}
+
+input#pass {
+   width: fit-content;
+   height: fit-content;
+   position: relative;
+   justify-self: left;
+   background: #FFFFFF;
+   border: 1px solid #D7D7D7;
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06);
+   border-radius: 3px;
+   scale: 1.2;
+}
+
+input#pass::after {
+   content: " Remember me";
+   position: absolute;
+   width: 100px;
+   left: 150%;
+   top: auto;
+}
+
+.password_info {
+   grid-row: 7 / 8;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: baseline;
+   gap: 15px;
+}
+
+.btn_login {
+   width: 380px;
+   height: 48px;
+   background: #2B2B2B;
+   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+   border-radius: 8px;
+
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 150%;
+   color: #FFFFFF;
+   cursor: pointer;
+}
+
+
+/* GOOGLE */
+
+#my-signin2 {
+   margin: 0 auto;
+}
+
+/* GOOGLE END */
+
+
+.signup {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: baseline;
+   gap: 15px;
+   margin-top: 24px;
+}
+
+.signup h2 {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+   color: #2B2B2B;
+}
